@@ -5,7 +5,7 @@ const cartStore = useCartStore()
 
 // 单选回调
 const singleCheck = (i, selected) => {
-  console.log(i, selected)
+  // console.log(i, selected)
   // store cartList 数组 无法知道要修改谁的选中状态？
   // 除了selected补充一个用来筛选的参数 - skuId
   cartStore.singleCheck(i.skuId, selected)

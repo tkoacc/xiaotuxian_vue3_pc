@@ -33,5 +33,9 @@ export default defineConfig({
         `
       }
     }
+  },
+  // 这里是新增的 server 配置
+  server: {
+    host: 'localhost'
   }
 })

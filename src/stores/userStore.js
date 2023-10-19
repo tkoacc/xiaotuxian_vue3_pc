@@ -13,7 +13,9 @@ export const useUserStore = defineStore(
     const userInfo = ref({})
     // 2. 定义获取接口数据的action函数
     const getUserInfo = async ({ account, password }) => {
+      // console.log('Input:', { account, password })
       const res = await loginAPI({ account, password })
+      // console.log('Login API response:', res)
       userInfo.value = res.result
       // 合并购物车的操作
       await mergeCartAPI(

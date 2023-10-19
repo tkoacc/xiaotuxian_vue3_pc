@@ -55,12 +55,12 @@ const router = createRouter({
           component: () => import('@/views/Member/index.vue'),
           children: [
             {
-              path: '/member/user',
+              path: '',
               name: 'UserInfo',
               component: () => import('@/views/Member/components/UserInfo.vue')
             },
             {
-              path: '/member/order',
+              path: 'order',
               name: 'UserOrder',
               component: () => import('@/views/Member/components/UserOrder.vue')
             }

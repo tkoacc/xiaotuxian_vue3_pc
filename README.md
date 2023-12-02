@@ -1,4 +1,4 @@
-# vue_rabbit
+# 小兔鲜-vue3-pc端
 
 This template should help get you started developing with Vue 3 in Vite.
 
